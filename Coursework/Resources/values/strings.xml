@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KeyInfoCall</string>
+    <string name="main_activity_name">KeyInfoCall</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_recent_calls">СПИСОК ВЫЗОВОВ ПУСТ</string>
+
+    <string name="no_information">Информация отсутствует . . .</string>
+
+    <string name="new_event">НОВОЕ СОБЫТИЕ</string>
+    <string name="title">Название</string>
+    <string name="location">Место</string>
+    <string name="start">Начало:</string>
+    <string name="end">Конец:</string>
+    <string name="description">Описание</string>
+    <string name="add_event_to_calendar">Добавить событие в Календарь</string>
+</resources>

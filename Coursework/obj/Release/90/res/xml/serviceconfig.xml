@@ -1,0 +1,1 @@
+<accessibility-service android:accessibilityEventTypes="typeAllMask" android:accessibilityFeedbackType="feedbackAllMask" android:notificationTimeout="100" android:canRetrieveWindowContent="true" xmlns:android="http://schemas.android.com/apk/res/android" />
