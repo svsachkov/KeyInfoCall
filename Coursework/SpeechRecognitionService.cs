@@ -39,6 +39,9 @@ namespace Coursework
             
             voiceIntent.PutExtra(RecognizerIntent.ExtraLanguageModel, RecognizerIntent.LanguageModelFreeForm);
             voiceIntent.PutExtra(RecognizerIntent.ExtraMaxResults, 1);
+            voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputMinimumLengthMillis, 15000);
+            voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputPossiblyCompleteSilenceLengthMillis, 5000);
+            voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputCompleteSilenceLengthMillis, 10000);
             voiceIntent.PutExtra(RecognizerIntent.ActionVoiceSearchHandsFree, true);
             voiceIntent.PutExtra(RecognizerIntent.ExtraSecure, false);
             voiceIntent.PutExtra(RecognizerIntent.ExtraLanguage, "ru-Ru");
@@ -59,8 +62,8 @@ namespace Coursework
         public void OnEndOfSpeech()
         {
             // Mute Google beep sound.
-            try { MuteSound(true); }
-            catch (Exception) { }
+            //try { MuteSound(true); }
+            //catch (Exception) { }
 
             Thread.Sleep(500);
 
@@ -70,8 +73,8 @@ namespace Coursework
         public void OnError([GeneratedEnum] SpeechRecognizerError error)
         {
             // Mute Google beep sound.
-            try { MuteSound(true); }
-            catch (Exception) { }
+            //try { MuteSound(true); }
+            //catch (Exception) { }
 
             if (isServiceRunning)
             {

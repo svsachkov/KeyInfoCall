@@ -8,8 +8,8 @@ namespace Coursework
 {
     class EntityRecognition
     {
-        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("key");
-        private static readonly Uri endpoint = new Uri("endpoint");
+        private static readonly AzureKeyCredential credentials = new AzureKeyCredential("3e0ef0b048a14aa697c54deffe7ca34e");
+        private static readonly Uri endpoint = new Uri("https://stepan.cognitiveservices.azure.com/");
 
         public static void RecognizeEntities(string text, int position)
         {
@@ -18,7 +18,7 @@ namespace Coursework
             string time = "";
             string others = "";
 
-            var googleClient = TranslationClient.CreateFromApiKey("key");
+            var googleClient = TranslationClient.CreateFromApiKey("AIzaSyCVpDRvqpr4XLV7xb2W9Cn8wycDz89k9wQ");
             var googleResponse = googleClient.TranslateText(text, LanguageCodes.English, LanguageCodes.Russian);
             text = googleResponse.TranslatedText;
 

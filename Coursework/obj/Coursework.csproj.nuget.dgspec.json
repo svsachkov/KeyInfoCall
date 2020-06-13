@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coursework\\Coursework\\Coursework.csproj": {}
+    "D:\\Курсовая работа\\Coursework\\Coursework\\Coursework.csproj": {}
   },
   "projects": {
-    "D:\\Coursework\\Coursework\\Coursework.csproj": {
+    "D:\\Курсовая работа\\Coursework\\Coursework\\Coursework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coursework\\Coursework\\Coursework.csproj",
+        "projectUniqueName": "D:\\Курсовая работа\\Coursework\\Coursework\\Coursework.csproj",
         "projectName": "Coursework",
-        "projectPath": "D:\\Coursework\\Coursework\\Coursework.csproj",
+        "projectPath": "D:\\Курсовая работа\\Coursework\\Coursework\\Coursework.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Coursework\\Coursework\\obj\\",
+        "outputPath": "D:\\Курсовая работа\\Coursework\\Coursework\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

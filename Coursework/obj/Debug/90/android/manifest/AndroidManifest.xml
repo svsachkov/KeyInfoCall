@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.coursework" android:installLocation="preferExternal">
-  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="28" />
-  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="26" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -28,6 +27,7 @@
   <uses-permission android:name="android.permission.WRITE_CALENDAR" />
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <application name=".App" android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <service android:name="crc643a24c21b352f62e4.KeyInfoCallAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
       <intent-filter>

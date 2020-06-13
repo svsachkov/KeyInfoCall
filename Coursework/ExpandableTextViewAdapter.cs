@@ -39,17 +39,18 @@ namespace Coursework
 
                 if (CrossConnectivity.Current.IsConnected && cm.ActiveNetworkInfo != null && cm.ActiveNetworkInfo.IsConnected)
                 {
-                    try
-                    {
-                        EntityRecognition.RecognizeEntities(keyInfo.TextFromSpeech, position);
-                        
-                        Toast.MakeText(context, "Информация обработана", ToastLength.Long).Show();
-                    }
-                    catch (System.Exception)
-                    {
-                        Toast.MakeText(context, "Ошибка при обработке информации...\nПожалуйста, проверьте свою подписку на Azure", ToastLength.Long).Show();
-                    }
-                    keyInfo = SqlData.GetKeyInfo(position);
+                    //try
+                    //{
+                    //    EntityRecognition.RecognizeEntities(keyInfo.TextFromSpeech, position);
+
+                    //    Toast.MakeText(context, "Информация обработана", ToastLength.Long).Show();
+                    //}
+                    //catch (System.Exception)
+                    //{
+                    //    Toast.MakeText(context, "Ошибка при обработке информации...\nПожалуйста, проверьте свою подписку на Azure", ToastLength.Long).Show();
+                    //}
+                    //keyInfo = SqlData.GetKeyInfo(position);
+                    EntityRecognition.RecognizeEntities(keyInfo.TextFromSpeech, position);
                 }
                 else
                 {

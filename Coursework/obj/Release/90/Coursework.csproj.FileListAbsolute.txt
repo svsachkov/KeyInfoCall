@@ -7,7 +7,6 @@ D:\Coursework\Coursework\bin\Release\com.companyname.coursework-Signed.apk
 D:\Coursework\Coursework\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 D:\Coursework\Coursework\obj\Release\90\build.props
 D:\Coursework\Coursework\obj\Release\90\adb.props
-D:\Coursework\Coursework\obj\Release\90\Coursework.csprojAssemblyReference.cache
 D:\Coursework\Coursework\obj\Release\90\_VerifyXamarinAndroidSupportVersions.stamp
 D:\Coursework\Coursework\obj\Release\90\stamp\_BuildLibraryImportsCache.stamp
 D:\Coursework\Coursework\obj\Release\90\res.flag

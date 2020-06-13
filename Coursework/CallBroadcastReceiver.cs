@@ -103,7 +103,7 @@ namespace Coursework
                     {
                         SqlData.SaveRecentCall(recentCall);
                         context.StopService(mIntent);
-                        Thread.Sleep(5000);
+                        Thread.Sleep(2000);
                         MainActivity.UpdateData();
                     }
                     else
